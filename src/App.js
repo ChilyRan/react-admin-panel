@@ -14,7 +14,7 @@ import { useContext, useState } from "react";
 import { DarkModeContext } from "./context/darkModeContext";
 
 function App() {
-
+  console.log("Hello World")
   const [dark, setDark] = useState(false)
   const {darkMode} = useContext(DarkModeContext)
   return (
